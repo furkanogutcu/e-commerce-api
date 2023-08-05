@@ -39,5 +39,10 @@
         "prepare": "husky install",
         "pre-commit": "npm run lint",
         "pre-push": "npm run build:check"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.6.7",
+        "@commitlint/config-conventional": "^17.6.7",
+        "husky": "^8.0.3"
     }
 }

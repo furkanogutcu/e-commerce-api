@@ -1,8 +1,8 @@
 {
-    "pipeline": {
-        "build:check": {},
-        "lint": {},
-        "lint:fix": {},
-        "test": {}
-    }
+  "pipeline": {
+    "build:check": {},
+    "lint": {},
+    "lint:fix": {},
+    "test": {}
+  }
 }

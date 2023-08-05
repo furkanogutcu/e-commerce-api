@@ -1,48 +1,53 @@
 {
-    "name": "shop_api",
-    "version": "0.0.0",
-    "description": "An e-commerce API in a microservice architecture",
-    "private": true,
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/furkanogutcu/shop-api.git"
-    },
-    "packageManager": "npm@8.15.0",
-    "workspaces": [
-        "apps/*",
-        "packages/*"
-    ],
-    "keywords": [
-        "api",
-        "shop",
-        "commerce",
-        "e_commerce",
-        "microservice",
-        "grpc",
-        "kafka",
-        "apigateway",
-        "gateway",
-        "service"
-    ],
-    "author": "furkanogutcu",
-    "license": "UNLICENSED",
-    "bugs": {
-        "url": "https://github.com/furkanogutcu/shop-api/issues"
-    },
-    "homepage": "https://github.com/furkanogutcu/shop-api#readme",
-    "scripts": {
-        "lint": "turbo run lint",
-        "lint:fix": "turbo run lint:fix",
-        "test": "turbo run test",
-        "build:check": "turbo run build:check",
-        "commitlint": "commitlint --edit ${1}",
-        "prepare": "husky install",
-        "pre-commit": "npm run lint",
-        "pre-push": "npm run build:check"
-    },
-    "devDependencies": {
-        "@commitlint/cli": "^17.6.7",
-        "@commitlint/config-conventional": "^17.6.7",
-        "husky": "^8.0.3"
-    }
+  "name": "shop_api",
+  "version": "0.0.0",
+  "description": "An e-commerce API in a microservice architecture",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkanogutcu/shop-api.git"
+  },
+  "packageManager": "npm@8.15.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "keywords": [
+    "api",
+    "shop",
+    "commerce",
+    "e_commerce",
+    "microservice",
+    "grpc",
+    "kafka",
+    "apigateway",
+    "gateway",
+    "service"
+  ],
+  "author": "furkanogutcu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/furkanogutcu/shop-api/issues"
+  },
+  "homepage": "https://github.com/furkanogutcu/shop-api#readme",
+  "scripts": {
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "test": "turbo run test",
+    "build:check": "turbo run build:check",
+    "commitlint": "commitlint --edit ${1}",
+    "prepare": "husky install",
+    "pre-commit": "npm run lint",
+    "pre-push": "npm run build:check"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.10.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.1.6"
+  }
 }

@@ -1,11 +1,11 @@
 {
-  "name": "shop_api",
+  "name": "e-commerce-api",
   "version": "0.0.0",
   "description": "An e-commerce API in a microservice architecture",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/furkanogutcu/shop-api.git"
+    "url": "git+https://github.com/furkanogutcu/e-commerce-api.git"
   },
   "packageManager": "npm@8.15.0",
   "workspaces": [
@@ -14,7 +14,6 @@
   ],
   "keywords": [
     "api",
-    "shop",
     "commerce",
     "e_commerce",
     "microservice",
@@ -27,9 +26,9 @@
   "author": "furkanogutcu",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/furkanogutcu/shop-api/issues"
+    "url": "https://github.com/furkanogutcu/e-commerce-api/issues"
   },
-  "homepage": "https://github.com/furkanogutcu/shop-api#readme",
+  "homepage": "https://github.com/furkanogutcu/e-commerce-api#readme",
   "scripts": {
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",

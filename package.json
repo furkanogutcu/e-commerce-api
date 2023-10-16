@@ -40,7 +40,7 @@
     "pre-push": "npm run build:check"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.7",
+    "@commitlint/cli": "^17.8.0",
     "@commitlint/config-conventional": "^17.6.7",
     "@typescript-eslint/eslint-plugin": "^6.2.1",
     "@typescript-eslint/parser": "^6.2.1",
